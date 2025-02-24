@@ -1,0 +1,6 @@
+10 INPUT A, B, C
+20 D = B^2 - 4 * A * C
+30 IF D < 0 THEN PRINT "SEM RAIZES REAIS": END
+40 PRINT (-B + SQR(D)) / (2 * A)
+50 PRINT (-B - SQR(D)) / (2 * A)
+60 END
